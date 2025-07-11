@@ -44,6 +44,7 @@ a {
   font-weight: bold;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .raleway-regular {
@@ -244,7 +245,7 @@ main {
 
 /* get-in-touch-section */
 .get-in-touch-section {
-  padding: 100px 0;
+  padding: 163px 0 71px 0;
 }
 
 .get-in-touch-section .get-in-touch-main {
@@ -291,4 +292,49 @@ textarea {
 
 .get-in-touch-section textarea {
   resize: none;
+}
+
+/* footer */
+footer {
+  padding: 104px 0 50px 0;
+}
+footer h3 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.footer-description {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: #8987a1;
+  width: 531px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+footer .footer-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding-top: 10px;
+}
+
+footer .footer-links ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #8987a1;
+}
+
+footer .copyright {
+  text-align: center;
+  color: #888;
+  font-size: 16px;
+  margin-top: 50px;
 }
