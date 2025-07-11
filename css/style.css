@@ -241,3 +241,54 @@ main {
 .focus-better-section .focus-better-main button {
   font-weight: 500;
 }
+
+/* get-in-touch-section */
+.get-in-touch-section {
+  padding: 100px 0;
+}
+
+.get-in-touch-section .get-in-touch-main {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 115px;
+}
+
+.get-in-touch-section .get-in-touch-main h3 {
+  font-size: 97px;
+  width: 528px;
+  max-width: 100%;
+}
+
+.get-in-touch-section .get-in-touch-main label {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.get-in-touch-section input,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  font-family: "Inter", sans-serif;
+  padding: 18px 0 18px 32px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.get-in-touch-section .get-in-touch-main .get-in-touch-text {
+  width: 50%;
+}
+.get-in-touch-section .get-in-touch-main .form {
+  width: 50%;
+}
+
+.get-in-touch-section textarea {
+  resize: none;
+}
