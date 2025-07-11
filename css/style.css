@@ -103,6 +103,11 @@ nav {
   padding-bottom: 37px;
 }
 
+/* mian */
+main {
+  background-color: #d6dded;
+}
+
 /* action section */
 .action-section {
   padding: 116px 0;
@@ -160,4 +165,57 @@ nav {
   display: block;
   text-align: center;
   font-size: 20px;
+}
+
+/* feedback-section */
+.feedback-section {
+  padding: 137px 0;
+}
+.feedback-section h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feedbcak-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+.feedback-section .description {
+  padding: 24px 0;
+}
+
+.feedback-section .feedback-users {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feedback-section .sub-title {
+  padding-top: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #252432;
+}
+.feedback-section .description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #252432;
+}
+
+.feedback-section h5 {
+  color: rgb(117, 117, 117);
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
