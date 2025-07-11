@@ -199,6 +199,11 @@ main {
   background-color: #ffffff;
   padding: 24px;
   border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1; /* সব কার্ড সমান width নিবে */
+  height: 100%;
 }
 
 .feedback-section .description {
