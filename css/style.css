@@ -26,7 +26,13 @@ a {
 /* shared style */
 .text-primary {
   color: #4e47ff;
+  transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
 }
+.text-primary:hover {
+  text-shadow: 0 2px 16px #4e47ff66;
+  transform: scale(1.08) rotate(-2deg);
+}
+
 .text-secondary {
   color: #252432;
 }
@@ -45,6 +51,12 @@ a {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.btn-primary:hover {
+  background: #252432;
+  box-shadow: 0 8px 24px #4e47ff44;
+  transform: translateY(-3px) scale(1.05);
 }
 
 .raleway-regular {
@@ -330,6 +342,12 @@ footer .footer-links ul li a {
   font-style: normal;
   font-size: 18px;
   color: #8987a1;
+  transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
+}
+footer .footer-links ul li a:hover {
+  color: #252432;
+  text-shadow: 0 2px 16px #4e47ff66;
+  transform: scale(1.08) rotate(-2deg);
 }
 
 footer .copyright {
