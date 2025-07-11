@@ -219,3 +219,25 @@ main {
   font-size: 16px;
   padding-bottom: 5px;
 }
+
+/* focus-better-section */
+.focus-better-section .focus-better-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 70px 150px;
+  background-color: #ffffff;
+  gap: 20px;
+  border-radius: 14px;
+}
+.focus-better-section .focus-better-main img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 48px;
+}
+
+.focus-better-section .focus-better-main button {
+  font-weight: 500;
+}
